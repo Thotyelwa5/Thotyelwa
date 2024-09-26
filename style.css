@@ -337,58 +337,58 @@ section{
     line-height: 22px;
 }
 
-.services h2{
-    margin-bottom: 8rem;
-}
 
-.service-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.service-container .services-box{
-
-    flex: 1 1 40rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: white ;
-    padding: 3rem 2rem 4rem;
-    height: 500px;
-    border-radius: 2rem;
+.projects {
+    background-color: #fff4f4;
+    padding: 10rem 9%;
     text-align: center;
-    border: 0.2rem solid rgb(224,224,224);
-    cursor: pointer;
-    transition: 0.4s ease;
-}
-
-.service-container .services-box:hover{
-    border-color: #ff154c;
-    transform: scale(1.02);
+  }
+  
+  .projects h2 {
+    font-size: 8rem;
+       margin-bottom: 5rem;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .project-box {
     background-color: white;
-    color: black;
-}
-
-.services-box i{
-    font-size: 7rem;
-    margin-bottom: 2rem;
-    color: #ff154c;
-}
-
-.services-box h3{
-    font-size: 2.6rem;
-    font-weight: 700;
+    border: 2px solid #ff154c;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    width: 30rem;
+    text-align: center;
+    transition: 0.3s ease;
+  }
+  
+  .project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-box img {
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-box h3 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
-}
-
-.services-box p{
+    color: #ff154c;
+  }
+  
+  .project-box p {
     font-size: 1.6rem;
-    margin: 1rem 0 3rem;
-}
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+ 
 
 ::-webkit-scrollbar{
     width: 15px;
@@ -620,15 +620,19 @@ footer .social a:hover{
         margin-bottom: 3rem;
         border: 25px solid #ff154c;
     }
+    /* .projects{
+        width: 50px;
+        height: 50px;
+    } */
 
-    .services{
+    /* .services{
         flex-direction: column;
         gap: 2rem;
     }
 
    .services h2{
     margin-bottom: 3rem;
-   }
+   } */
 
    .timeline-items::before{
     left: 7px;
