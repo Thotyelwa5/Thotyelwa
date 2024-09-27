@@ -1,6 +1,6 @@
 
 var typed = new Typed(".typewriter-text", {
-    strings: ["Web Developer", "Designer", "Freelancer", "Back-end Developer"],
+    strings: ["Web Developer", "Designer", "Software Developer", "Freelancer", "Back-end Developer"],
     typeSpeed: 100,
     backSpeed: 70,
     loop: true
