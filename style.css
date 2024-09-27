@@ -360,6 +360,7 @@ section{
     background-color: white;
     border: 2px solid #ff154c;
     padding: 2rem;
+    cursor: pointer;
     border-radius: 1.5rem;
     width: 30rem;
     text-align: center;
